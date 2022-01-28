@@ -11,6 +11,20 @@ body {
     grid-gap: 15px;
     padding: 10px;
 }
+
+.icon{
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row;
+    order: 1;
+    /* align-items: start;
+    justify-content: flex-start;  */
+}
+
+.emoji h2{
+    display: flex;
+    order: 2;
+}
   
   .emoji {
     border: 1px solid #222;
