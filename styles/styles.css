@@ -5,7 +5,9 @@ body {
 
   .emojis{
     display: grid;
-    grid: 300px / auto auto auto;
+    grid-template-columns: 400px 400px;
+    /* grid: 300px / auto auto auto; */
+
     grid-gap: 15px;
     padding: 10px;
 }
